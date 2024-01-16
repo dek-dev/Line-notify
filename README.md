@@ -10,8 +10,8 @@ Document https://notify-bot.line.me/en/
 ** save token ที่ Generate แล้วเก็บไว้ทุกครั้ง หากลืมจะต้องทำการสร้างใหม่
 
 set up node js
-run npm install
-run npm start
+!npm install
+!npm start
 
 http://0.0.0.0:8000/create
 
