@@ -17,8 +17,7 @@ app.get('/', (req, res) => {
 
 app.post('/create', (req, res) => {
     //https://notify-bot.line.me/en/
-    // EkJwE95iOUxqBadlFUHHFlgSkd2ItJMyXI0h8Obez5o
-    // w49DxOJoDCQ0kT3odzHMNcoXrZlIGPLW0D9LByZJLph hos app
+    // TpjBXWfYXuzLd0KYav7qBe7BnDt9tNzByf7KskHCNL3
     let data = req.body;
     let message = data.message;
     const refine_data = qs.stringify({ message });
