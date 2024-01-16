@@ -8,3 +8,17 @@ Document https://notify-bot.line.me/en/
    4.2 กรณีต้องการสร้าง token แบบ Group ต้องทำการ Invite "Line notify" เข้า Gruop นั้นๆด้วย (เหมือนดึง user เข้า group ปกติ)
 
 ** save token ที่ Generate แล้วเก็บไว้ทุกครั้ง หากลืมจะต้องทำการสร้างใหม่
+
+set up node js
+run npm install
+run npm start
+
+http://0.0.0.0:8000/create
+
+postman boby -> raw 
+
+```json
+{
+    "message": "hi wutdy",
+    "token": "TpjBXWfYXuzLd0KYav7qBe7BnDt9tNzByf7KskHCNL3"
+}
