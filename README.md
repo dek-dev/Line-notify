@@ -1,19 +1,25 @@
-Document https://notify-bot.line.me/en/
-ขั้นตอนการสสร้าง token
-1. Login ด้วย email && password line
-2. ตรงชื่อมุมขวาบนกด v -> My page 
-3. กด Generate token
-4. ตั้งชื่อและเลือกว่าให้ token นี้เชื่อมต่อกับใครเช่นแบบ Group || 1-1
-   4.1 ไปที่ Application Line ให้เพิ่มเพื่อนกับ Line notify
-   4.2 กรณีต้องการสร้าง token แบบ Group ต้องทำการ Invite "Line notify" เข้า Gruop นั้นๆด้วย (เหมือนดึง user เข้า group ปกติ)
+# Document
+To create a token, go to the following link:
+https://notify-bot.line.me/en/
+and follow the instructions.
 
-** save token ที่ Generate แล้วเก็บไว้ทุกครั้ง หากลืมจะต้องทำการสร้างใหม่
+How to create a LINE Notify token
+1. Log in to LINE with your email and password.
+2. Click the three dots next to your name in the top right corner, then select "My page".
+3. Click "Generate token".
+4. Enter a name for the token and select whether you want it to connect to a group or a single user.
 
-set up node js
-!npm install
-!npm start
+To create a token for a group:
+1. In the LINE app, add LINE Notify as a friend.
+2. Invite "LINE Notify" to the group you want to connect the token to.
 
-http://0.0.0.0:8000/create
+Set up Node Js
+```
+npm install
+npm start
+```
+
+try ```http://0.0.0.0:8000/create```
 
 postman boby -> raw 
 
